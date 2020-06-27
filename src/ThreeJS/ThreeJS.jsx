@@ -22,8 +22,8 @@ class ThreeJS extends Component {
     camera.position.z = 5;
     var animate = function () {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+      cube.rotation.x += 0.01; // changes rotation left to right 0.00 only spins like a top
+      cube.rotation.y += 0.01; // changes rotation up to down 0.00 spins like a slinky
       renderer.render(scene, camera);
     };
     animate();
