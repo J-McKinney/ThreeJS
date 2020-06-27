@@ -5,7 +5,7 @@ class ThreeJS extends Component {
   componentDidMount() {
     let scene = new THREE.Scene();
     let camera = new THREE.PerspectiveCamera(
-      75,
+      75, // perspective camera view the lower the # will zoom in closer over 200 starts to zoom in
       window.innerWidth / window.innerHeight,
       0.1,
       1000
