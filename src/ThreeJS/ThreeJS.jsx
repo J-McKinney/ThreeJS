@@ -35,7 +35,7 @@ class ThreeJS extends Component {
 
     scene.add(cube);
     cubes.push(cube); // add to our list of cubes to rotate
-    camera.position.z = 5; // changes the position of the camera higher the number the farther away the object is
+    camera.position.z = 5; // changes the position of the camera, higher the number the farther away the object is
     let animate = function () {
       requestAnimationFrame(animate);
       cube.rotation.x += 0.01; // changes rotation left to right 0.00 only spins like a top
