@@ -2,6 +2,8 @@
   "name": "rotatingcube",
   "version": "0.1.0",
   "private": true,
+  "Author": "Jesse McKinney",
+  "homepage": "https://j-mckinney.github.io/rotating-cube/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
